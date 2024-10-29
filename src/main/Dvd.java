@@ -37,11 +37,11 @@ public class Dvd {
 	}
 	
 	public void bounceOffVertical() {
-		ySpeed = -ySpeed;
+		this.ySpeed = -this.ySpeed;
 	}
 
 	public void bounceOffHorizontal() {
-		xSpeed = -xSpeed;
+		this.xSpeed = -this.xSpeed;
 	}
 	
 	public void setColor(Color c) {
